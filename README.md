@@ -38,7 +38,7 @@
 
 #### As Home Page:
 
-1. Fork this repo
+1. Fork [this](https://github.com/migueravila/Bento) repo
 2. Enable the Github Pages service `Settings > GitHub Pages > Source [master branch] > Save`
 3. Set it as Home Page:
    - Click the menu button. and select Options. Preferences.
