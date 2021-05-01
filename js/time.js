@@ -18,11 +18,11 @@ function displayClock() {
   // Set to true to use a 12 hour date format
   var format_12hour = true;
 
-  var d = new Date();
+  var d = new Date().toLocaleString();
   var mm = monthNames[d.getMonth()];
   var dd = d.getDate();
   var min = (mins = ('0' + d.getMinutes()).slice(-2));
-  var hh = d.getHours() + 20;
+  var hh = d.getHours();
   var ampm = '';
 
   if (format_12hour) {
