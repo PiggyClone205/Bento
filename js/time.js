@@ -1,7 +1,7 @@
 // fuck you
 function localize(t)
 {
-  var outval=new Date(t.toString()+" GET");
+  var outval=new Date(t.toString()+" PST");
   return outval;
 }
 
