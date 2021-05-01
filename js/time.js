@@ -1,3 +1,10 @@
+// fuck you
+function localize(t)
+{
+  var outval=new Date(t+" UTC");
+  return outval;
+}
+
 window.onload = displayClock();
 function displayClock() {
   const monthNames = [
@@ -19,7 +26,7 @@ function displayClock() {
   var format_12hour = true;
 
   var d = new Date();
-  d = new Date(+d + d.getTimezoneOffset() * 6e4);
+  d = localize(d);
   var mm = monthNames[d.getMonth()];
   var dd = d.getDate();
   var min = (mins = ('0' + d.getMinutes()).slice(-2));
