@@ -1,7 +1,7 @@
 // fuck you
 function localize(t)
 {
-  var outval=new Date(t+" UTC");
+  var outval=new Date(t.toString()+" UTC");
   return outval;
 }
 
